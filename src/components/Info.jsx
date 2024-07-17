@@ -4,8 +4,8 @@ import temp from '../assets/temp.jpeg'
 
 const Info = () => {
   return (
-    <div className=' flex flex-col space-y-24 '>
-        <div className='p-24'> 
+    <div className=' flex flex-col space-y-24 p-4 '>
+        <div className='p-24 sm:p-4'> 
         <h1 className='font-bold text-3xl pb-10'> Understanding Waste Segregation: A Step Towards Environmental Responsibility</h1>
             <p className='leading-10 text-xl'>
            
@@ -108,8 +108,8 @@ Conclusion:
 Recycling is not just a choice; it’s a commitment to sustainable living and environmental stewardship. By exploring recycling options and taking action, each of us can play a crucial role in building a cleaner, healthier planet for current and future generations.
         </div>
 
-        <div class="p-24">
-        <h2 class="section-heading text-center text-2xl font-bold p-6">Why Compost?</h2>
+        <div class="p-24 sm:p-4">
+        <h2 class="section-heading text-center text-2xl font-bold">Why Compost?</h2>
         <ul class="list-disc list-inside text-xl space-y-5">
             <li class="list-item">Environmental Benefits: Reduces greenhouse gas emissions and enriches soil health.</li>
             <li class="list-item">Waste Reduction: Diverts organic waste from landfills, reducing methane production.</li>
@@ -118,7 +118,7 @@ Recycling is not just a choice; it’s a commitment to sustainable living and en
     </div>
     </div>
    
-    <div class="mb-8 p-24">
+    <div class="mb-8 p-24 sm:p-4">
         <h2 class="section-heading text-center text-2xl font-bold">Getting Started</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="p-4 bg-white rounded shadow">
@@ -126,14 +126,14 @@ Recycling is not just a choice; it’s a commitment to sustainable living and en
                 <p class="mt-2 text-xl">Select a suitable location for your compost pile or bin, depending on your space.</p>
             </div>
             <div class="p-4 bg-white rounded shadow text-xl">
-                <h3 class="font-bold text-2xl p-6">What to Compost</h3>
-                <p class="mt-2">Separate green (fruit scraps, coffee grounds) and brown materials (dry leaves, cardboard).</p>
+                <h3 class="font-bold text-2xl">What to Compost</h3>
+                <p class="mt-2 p-4">Separate green (fruit scraps, coffee grounds) and brown materials (dry leaves, cardboard).</p>
             </div>
         </div>
     </div>
 
     
-    <div class="p-24 ">
+    <div class="p-24 sm:p-4">
         <h2 class="section-heading text-center text-2xl font-bold">Managing Your Compost</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
             <div class="  bg-white flex flex-col rounded shadow-md mt-10 h-62 ">
