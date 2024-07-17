@@ -11,7 +11,9 @@ const Navbar = () => {
         <li className='hover:text-green'>Initiatives</li>
       </ul>
       </div>
-      
+      <div className='-mt-5 sm:hidden'>
+        <Button></Button>
+      </div>
     </div>
   )
 }
